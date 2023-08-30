@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj": {}
+    "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\E-Commerce-App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj": {
+    "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\E-Commerce-App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
+        "projectUniqueName": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\E-Commerce-App.csproj",
         "projectName": "E-Commerce-App",
-        "projectPath": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
-        "packagesPath": "C:\\Users\\tsnee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\obj\\",
+        "projectPath": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\E-Commerce-App.csproj",
+        "packagesPath": "C:\\Users\\Bashar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tsnee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bashar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,33 +34,14 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -81,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     }
