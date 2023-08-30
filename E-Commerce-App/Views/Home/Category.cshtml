@@ -1,0 +1,35 @@
+﻿@model IEnumerable<E_Commerce_App.Models.Category>
+@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category List</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Add any additional stylesheets here -->
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th style="color: brown;">Name</th>
+            <th style="color: brown;">Type</th>
+            <th style="color: brown;">Amount</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Type)</td>
+                <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+                <td> <a asp-controller="ViewModels" asp-action="Index" asp-route-id="@item.Id">Products</a></td>
+            </tr>
+        }
+    </table>
+
+    <!-- Scripts and footer here -->
+</body>
+</html>
