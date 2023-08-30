@@ -1,0 +1,15 @@
+﻿@model E_Commerce_App.ViewModels.ProductAndCategoryVM
+
+<h1>@Model.Category.Name</h1>
+<h2>@Model.Category.Type</h2>
+
+@foreach(var item in Model.Product)
+{
+    <ul>
+        <li>@item.Name</li>
+        <li>@item.Price</li>
+        <li>@item.ExpiryDate</li>
+        <li>@item.Description</li>
+
+    </ul>
+}
