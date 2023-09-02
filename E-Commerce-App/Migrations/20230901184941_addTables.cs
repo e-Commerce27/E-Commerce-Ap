@@ -56,9 +56,9 @@ namespace E_Commerce_App.Migrations
                 columns: new[] { "Id", "Amount", "Name", "Type" },
                 values: new object[,]
                 {
-                    { 1, null, "Name1", "category1" },
-                    { 2, null, "Name2", "category2" },
-                    { 3, null, "Name3 ", "category3" }
+                    { 1, null, "Fruits and vegetables", "category1" },
+                    { 2, null, "Canned Food", "category2" },
+                    { 3, null, "Fresh Meat and Fresh Chicken ", "category3" }
                 });
 
             migrationBuilder.InsertData(
@@ -66,9 +66,9 @@ namespace E_Commerce_App.Migrations
                 columns: new[] { "Id", "CategoryId", "Description", "ExpiryDate", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, 1, "item1", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Name1", 5m },
-                    { 2, 2, "item2", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Name2", 10m },
-                    { 3, 3, "item3", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Name3 ", 15m }
+                    { 1, 1, "item1", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Tomato", 2m },
+                    { 2, 2, "item2", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Tuna", 5m },
+                    { 3, 3, "item3", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "steak", 30m }
                 });
 
             migrationBuilder.CreateIndex(

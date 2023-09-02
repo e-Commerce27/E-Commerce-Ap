@@ -4,6 +4,7 @@ using E_Commerce_App.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_Commerce_App.Migrations
 {
     [DbContext(typeof(ECommerceContext))]
-    partial class ECommerceContextModelSnapshot : ModelSnapshot
+    [Migration("20230901184941_addTables")]
+    partial class addTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -33,9 +36,6 @@ namespace E_Commerce_App.Migrations
                     b.Property<string>("Amount")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Img")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -50,21 +50,18 @@ namespace E_Commerce_App.Migrations
                         new
                         {
                             Id = 1,
-                            Img = "https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg",
                             Name = "Fruits and vegetables",
                             Type = "category1"
                         },
                         new
                         {
                             Id = 2,
-                            Img = "https://c0.wallpaperflare.com/preview/412/24/903/canning-cans-finished-products-eat.jpg",
                             Name = "Canned Food",
                             Type = "category2"
                         },
                         new
                         {
                             Id = 3,
-                            Img = "https://c4.wallpaperflare.com/wallpaper/304/644/960/chicken-dishes-table-plate-fruit-vegetables-wallpaper-preview.jpg",
                             Name = "Fresh Meat and Fresh Chicken ",
                             Type = "category3"
                         });

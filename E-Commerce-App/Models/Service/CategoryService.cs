@@ -51,6 +51,7 @@ namespace E_Commerce_App.Models.Services
             categories.Name = category.Name;
             categories.Type = category.Type;
             categories.Amount = category.Amount;
+            categories.Img = category.Img;
             categories.products = categories.products;
 
 
