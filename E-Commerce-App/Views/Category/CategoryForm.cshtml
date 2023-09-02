@@ -1,0 +1,36 @@
+﻿@model E_Commerce_App.Models.Category
+
+<label>
+    <span>Name</span>
+    <input asp-for="@Model.Name" />
+
+   
+</label>
+
+
+<label>
+    <span>Type</span>
+    <input asp-for="@Model.Type" />
+</label>
+
+
+<label>
+    <span>Amount</span>
+    <input asp-for="@Model.Amount" />
+</label>
+
+@if(Model.Id > 0)
+{
+    <input type="hidden" name="Id" value="@Model.Id" />
+}
+
+
+<div asp-validation-summary="All"></div>
+
+@if (Model.Id > 0)
+{
+    <button type="submit"> Update</button>
+}
+else{
+    <button type="submit"> Add</button>
+}

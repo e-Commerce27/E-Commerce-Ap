@@ -18,5 +18,18 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
+a{
+    color:black;
+    text-underline-offset:inherit;
+    
+}
+a:hover{
+    color:orange;
+}
+a:visited{
+    color:black;
+}
+

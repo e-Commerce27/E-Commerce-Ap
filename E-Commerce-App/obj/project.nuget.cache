@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HM/bdT/ZdkKYr3jq24pERHIw+MrftZYdwHH07O1F2+YOnDhMJH/6E8YX5yYIGhtqHlBqZaEljHhZ7+EYqvzVWw==",
+  "dgSpecHash": "e6DPWBqJqtPJNhJ15ihzoPtLyXvqWsAhdYbv3owQvwGE9S4/gqvv3IlyGhoHocKpp7Q1e3I8HExxBCFN1E27RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
+  "projectFilePath": "C:\\Users\\tsnee\\Source\\Repos\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tsnee\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tsnee\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -13,52 +13,54 @@ namespace E_Commerce_App.Models.Services
         }
         public async Task<Category> CreateCategory(Category category)
         {
-            _context.categories.Add(category);
+             _context.Categories.Add(category);
 
-            await _context.SaveChangesAsync();
+             await _context.SaveChangesAsync();
 
 
-            return category;
+             return category;
+            //throw new NotImplementedException();
         }
 
         public async Task<Category> DeleteCategory(int Id)
         {
             Category category = await GetCategoryId(Id);
-            _context.Entry(category).State = EntityState.Deleted;
-            await _context.SaveChangesAsync();
+             _context.Entry(category).State = EntityState.Deleted;
+             await _context.SaveChangesAsync();
 
-
-            return category;
+            //throw new NotImplementedException();
+             return category;
         }
 
         public async Task<List<Category>> GetAllCategory()
         {
-            var category = await _context.categories.ToListAsync();
 
-            return category;
+
+            return await _context.Categories.ToListAsync();
         }
 
         public async Task<Category> GetCategoryId(int CategoryId)
         {
-            Category? category = await _context.categories.FindAsync(CategoryId);
-
-            return category;
+            //Category? category = await _context.categories.FindAsync(CategoryId);
+            throw new NotImplementedException();
+            //return category;
         }
 
         public async Task<Category> UpdateCategory(int Id, Category category)
         {
-            Category categories = await GetCategoryId(Id);
-            categories.Name = category.Name;
-            categories.Type= category.Type;
-            categories.Amount= category.Amount;
-            categories.products = categories.products;
+             Category categories = await GetCategoryId(Id);
+             categories.Name = category.Name;
+             categories.Type= category.Type;
+             categories.Amount= category.Amount;
+             categories.products = categories.products;
 
 
-            _context.Entry(categories).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+             _context.Entry(categories).State = EntityState.Modified;
+             await _context.SaveChangesAsync();
 
 
-            return categories;
+             return categories;
+           // throw new NotImplementedException();
         }
     }
 }
