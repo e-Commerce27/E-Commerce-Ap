@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_Commerce_App.Migrations
 {
     [DbContext(typeof(ECommerceContext))]
-    [Migration("20230830004407_addTables")]
-    partial class addTables
+    [Migration("20230901191531_addImg")]
+    partial class addImg
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,6 +36,9 @@ namespace E_Commerce_App.Migrations
                     b.Property<string>("Amount")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -50,19 +53,22 @@ namespace E_Commerce_App.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Name1",
+                            Img = "https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg",
+                            Name = "Fruits and vegetables",
                             Type = "category1"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Name2",
+                            Img = "https://c0.wallpaperflare.com/preview/412/24/903/canning-cans-finished-products-eat.jpg",
+                            Name = "Canned Food",
                             Type = "category2"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Name3 ",
+                            Img = "https://c4.wallpaperflare.com/wallpaper/304/644/960/chicken-dishes-table-plate-fruit-vegetables-wallpaper-preview.jpg",
+                            Name = "Fresh Meat and Fresh Chicken ",
                             Type = "category3"
                         });
                 });
@@ -105,8 +111,8 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 1,
                             Description = "item1",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Name1",
-                            Price = 5m
+                            Name = "Tomato",
+                            Price = 2m
                         },
                         new
                         {
@@ -114,8 +120,8 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 2,
                             Description = "item2",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Name2",
-                            Price = 10m
+                            Name = "Tuna",
+                            Price = 5m
                         },
                         new
                         {
@@ -123,8 +129,8 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 3,
                             Description = "item3",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Name3 ",
-                            Price = 15m
+                            Name = "steak",
+                            Price = 30m
                         });
                 });
 

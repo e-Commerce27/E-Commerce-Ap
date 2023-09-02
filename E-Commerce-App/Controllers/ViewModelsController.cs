@@ -1,4 +1,6 @@
-﻿using E_Commerce_App.Models.Interfaces;
+﻿using E_Commerce_App.Models;
+using E_Commerce_App.Models.Interface;
+using E_Commerce_App.Models.Interfaces;
 using E_Commerce_App.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +9,7 @@ namespace E_Commerce_App.Controllers
     public class ViewModelsController : Controller
     {
         private readonly ICategory _category;
+        private readonly IProduct _product;
         public ViewModelsController(ICategory category)
         {
             _category = category;
@@ -22,5 +25,6 @@ namespace E_Commerce_App.Controllers
             };
             return View(prodectAndCategory);
         }
+      
     }
 }

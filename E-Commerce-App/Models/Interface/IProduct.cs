@@ -5,7 +5,7 @@
         Task<Product> CreateProduct(Product product);
         Task<Product> GetProduct(int id);
         Task <List<Product>> GetAllProducts();
-        Task<Product> UpdateProduct(Product product,int productId);
-        Task DeleteProduct(int id);
+        Task<Product> UpdateProduct(int productId, Product product);
+        Task<Product> DeleteProduct(int id);
     }
 }

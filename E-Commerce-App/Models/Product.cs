@@ -10,7 +10,7 @@ namespace E_Commerce_App.Models
         public decimal Price { get; set; }
         public DateTime ExpiryDate { get; set; }
         public int CategoryId { get; set; }
-        public virtual Category category { get; set; }
+        public virtual Category? category { get; set; }
 
     }
 }
