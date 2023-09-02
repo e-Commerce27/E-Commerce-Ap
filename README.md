@@ -1,7 +1,6 @@
+E-Commerce ASP.Net core(MVC)  project for E-commerce Market.
 
-E-Commerce ASP.Net core(MVC)  project for what you need of camping supplies and goods.
-
-- Project name : Campee
+- Project name : 
 
 - our frattures till now is that we have : Admin Dashboard
 
