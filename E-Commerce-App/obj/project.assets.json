@@ -4034,11 +4034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
+      "projectUniqueName": "C:\\Users\\tsnee\\Source\\Repos\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
       "projectName": "E-Commerce-App",
-      "projectPath": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
+      "projectPath": "C:\\Users\\tsnee\\Source\\Repos\\E-Commerce-Ap\\E-Commerce-App\\E-Commerce-App.csproj",
       "packagesPath": "C:\\Users\\tsnee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tsnee\\source\\repos\\E-Commerce-App\\E-Commerce-Ap\\E-Commerce-App\\obj\\",
+      "outputPath": "C:\\Users\\tsnee\\Source\\Repos\\E-Commerce-Ap\\E-Commerce-App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tsnee\\AppData\\Roaming\\NuGet\\NuGet.Config",

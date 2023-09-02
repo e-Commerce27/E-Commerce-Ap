@@ -1,5 +1,6 @@
 using E_Commerce_App.Data;
 using E_Commerce_App.Models.Interfaces;
+using E_Commerce_App.Models.Service;
 using E_Commerce_App.Models.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,7 @@ namespace E_Commerce_App
             builder.Services.AddDbContext<ECommerceContext>(option => option.UseSqlServer(conn));
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddTransient<IProduct, ProductService>();
             builder.Services.AddTransient<ICategory, CategoryService>();
             var app = builder.Build();
 
