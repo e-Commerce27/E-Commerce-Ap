@@ -4,6 +4,7 @@ using E_Commerce_App.Models.Interface;
 using E_Commerce_App.Models.Interfaces;
 using E_Commerce_App.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
@@ -12,6 +13,7 @@ namespace E_Commerce_App.Controllers
     public class ProductController : Controller
     {
         private readonly IProduct _product;
+        private readonly ICategory _category;
 
         public ProductController(IProduct product)
         {
@@ -35,8 +37,10 @@ namespace E_Commerce_App.Controllers
             return View(products);
         }
 
-        public IActionResult Add()
+        public async Task<IActionResult> Add()
         {
+            var categories = await _category.GetAllCategory();
+            ViewBag.Category = new SelectList(categories, "Id", "Name");
             var product = new Product();
             return View(product);
         }
@@ -48,7 +52,6 @@ namespace E_Commerce_App.Controllers
             {
                 return View(product);
             }
-
             await _product.CreateProduct(product);
 
             return RedirectToAction("Index");

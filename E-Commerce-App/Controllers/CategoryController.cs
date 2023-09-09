@@ -8,7 +8,7 @@ namespace E_Commerce_App.Controllers
     {
         private readonly ECommerceContext _context;
         private readonly ICategory _category;
-        public CategoryController(ICategory category)
+        public CategoryController (ICategory category)
         {
             _category = category;
             
