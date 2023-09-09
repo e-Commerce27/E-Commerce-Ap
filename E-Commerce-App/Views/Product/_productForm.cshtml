@@ -1,5 +1,8 @@
 ﻿@model E_Commerce_App.Models.Product
 
+@*{
+    var cat = ViewBag.Categories;
+}*@
 <form method="post" asp-controller="Product" asp-action="@(Model.Id > 0 ? "Edit" : "Add")" asp-route-productId="@Model.Id">
     @if (Model.Id > 0)
     {
@@ -30,6 +33,7 @@
         <label asp-for="CategoryId">Category</label>
         <input asp-for="CategoryId" class="form-control" />
     </div>
+    
 
     <div asp-validation-summary="All" class="text-danger"></div>
     <button type="submit" class="btn btn-primary">@if (Model.Id > 0)
