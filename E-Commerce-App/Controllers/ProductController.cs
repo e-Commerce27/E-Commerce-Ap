@@ -3,6 +3,7 @@ using E_Commerce_App.Models;
 using E_Commerce_App.Models.Interface;
 using E_Commerce_App.Models.Interfaces;
 using E_Commerce_App.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,13 +20,13 @@ namespace E_Commerce_App.Controllers
         {
             _product = product;
         }
-
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var allProducts = await _product.GetAllProducts();
             return View(allProducts);
         }
-
+        [Authorize]
         public async Task<IActionResult>GetproductbyId(int id)
         {
             var categorybyId = await _product.GetProduct(id);
@@ -36,11 +37,11 @@ namespace E_Commerce_App.Controllers
             };
             return View(products);
         }
-
+        [Authorize]
         public async Task<IActionResult> Add()
         {
-            var categories = await _category.GetAllCategory();
-            ViewBag.Category = new SelectList(categories, "Id", "Name");
+            //var categories = await _category.GetAllCategory();
+            //ViewBag.Category = new SelectList(categories, "Id", "Name");
             var product = new Product();
             return View(product);
         }
@@ -58,6 +59,7 @@ namespace E_Commerce_App.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Edit(int productId)
         {
             var product = await _product.GetProduct(productId);
@@ -86,7 +88,7 @@ namespace E_Commerce_App.Controllers
 
             return RedirectToAction("Index");
         }
-
+        [Authorize]
         public async Task<IActionResult> Delete(int productId)
         {
             var product = await _product.GetProduct(productId);

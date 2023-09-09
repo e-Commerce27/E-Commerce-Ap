@@ -1,9 +1,11 @@
 ﻿using E_Commerce_App.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce_App.Data
 {
-    public class ECommerceContext : DbContext
+    public class ECommerceContext : IdentityDbContext<AuthUser>
     {
        public ECommerceContext(DbContextOptions options) : base(options)
         {
@@ -12,6 +14,11 @@ namespace E_Commerce_App.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<IdentityRole>().HasData(
+     new IdentityRole { Id = "administrator", Name = "Administrator", NormalizedName = "ADMINISTRATOR", ConcurrencyStamp = Guid.Empty.ToString() }
+    
+   );
 
             modelBuilder.Entity<Product>().HasData(
 
