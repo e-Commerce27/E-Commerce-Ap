@@ -6,30 +6,22 @@
 
 <h2>Products</h2>
 
-<div class="table-responsive">
-    <table class="table table-striped table-bordered">
-        <thead class="thead-dark">
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Expiry Date</th>
-                <th>Category Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var product in Model)
-            {
-                <tr>
-                    <td>@product.Id</td>
-                    <td>@product.Name</td>
-                    <td>@product.Description</td>
-                    <td>@product.Price.ToString("C")</td>
-                    <td>@product.ExpiryDate.ToShortDateString()</td>
-                    <td>@product.CategoryId</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@product.Image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Price: @product.Price.ToString("C")</li>
+                    <li class="list-group-item">Expiry Date: @product.ExpiryDate.ToShortDateString()</li>
+                    <li class="list-group-item">Category Name: @product.CategoryId</li>
+                </ul>
+            </div>
+        </div>
+    }
 </div>

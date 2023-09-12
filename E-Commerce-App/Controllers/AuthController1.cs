@@ -1,6 +1,8 @@
 ﻿
+using E_Commerce_App.Models;
 using E_Commerce_App.Models.DTO;
 using E_Commerce_App.Models.Interface;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,10 +16,12 @@ namespace E_Commerce_App.Controllers
 
         // Use DI to bring in the user service
         private IUserService userService;
+        private SignInManager<AuthUser> _signInManager;
 
-        public AuthController(IUserService service)
+        public AuthController(IUserService service, SignInManager<AuthUser> sim)
         {
             userService = service;
+            _signInManager = sim;
         }
 
         public IActionResult Index()
@@ -34,11 +38,11 @@ namespace E_Commerce_App.Controllers
         [HttpPost]
         public async Task<ActionResult<UserDTO>> Signup(RegisterDTO data)
         {
-            // Hardcode the role(s)
-            data.Roles = new List<string>() { "Administrator" };
+            
+           // data.Roles = new List<string>() { "Administrator" };
 
             // Create a user with the user service
-            var user = await userService.Register(data, this.ModelState);
+             await userService.Register(data, this.ModelState);
 
             if (ModelState.IsValid)
             {
@@ -60,5 +64,11 @@ namespace E_Commerce_App.Controllers
 
             return Redirect("/");
             }
+        
+        public async Task<ActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
