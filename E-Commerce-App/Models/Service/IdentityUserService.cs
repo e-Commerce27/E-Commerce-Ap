@@ -30,7 +30,6 @@ namespace E_Commerce_App.Models.Service
 
             if (result.Succeeded)
             {
-                // Because we have a "Good" user, let's add them to their proper role
                 await userManager.AddToRolesAsync(user, data.Roles);
                 return new UserDTO
                 {
@@ -40,9 +39,7 @@ namespace E_Commerce_App.Models.Service
                 };
             }
 
-            // What about our errors?
-            // We can feed modelState with our errors, and then use a tag helper to show them:
-            // <div asp-validation-summary="All"></div>
+           
 
             foreach (var error in result.Errors)
             {
@@ -92,5 +89,6 @@ namespace E_Commerce_App.Models.Service
                 Roles = await userManager.GetRolesAsync(user)
             };
         }
+      
     }
 }

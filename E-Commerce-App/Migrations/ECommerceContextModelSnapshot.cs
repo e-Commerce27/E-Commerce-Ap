@@ -153,6 +153,9 @@ namespace E_Commerce_App.Migrations
                     b.Property<DateTime>("ExpiryDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -173,6 +176,7 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 1,
                             Description = "item1",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Image = "",
                             Name = "Tomato",
                             Price = 2m
                         },
@@ -182,6 +186,7 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 2,
                             Description = "item2",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Image = "",
                             Name = "Tuna",
                             Price = 5m
                         },
@@ -191,6 +196,7 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 3,
                             Description = "item3",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Image = "",
                             Name = "steak",
                             Price = 30m
                         });
@@ -229,6 +235,13 @@ namespace E_Commerce_App.Migrations
                             ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = "editor",
+                            ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
+                            Name = "Editor",
+                            NormalizedName = "EDITOR"
                         });
                 });
 

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce_App.Data
-{
+{   
     public class ECommerceContext : IdentityDbContext<AuthUser>
     {
        public ECommerceContext(DbContextOptions options) : base(options)
@@ -16,15 +16,18 @@ namespace E_Commerce_App.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<IdentityRole>().HasData(
-     new IdentityRole { Id = "administrator", Name = "Administrator", NormalizedName = "ADMINISTRATOR", ConcurrencyStamp = Guid.Empty.ToString() }
-    
+             new IdentityRole { Id = "administrator", Name = "Administrator", NormalizedName = "ADMINISTRATOR", ConcurrencyStamp = Guid.Empty.ToString()},
+             new IdentityRole { Id = "editor", Name = "Editor", NormalizedName = "EDITOR", ConcurrencyStamp = Guid.Empty.ToString()}
+
+
+
    );
 
             modelBuilder.Entity<Product>().HasData(
 
-             new Product { Id = 1, Name = "Tomato", Price = 2, Description = "item1", CategoryId=1 },
-             new Product { Id = 2, Name = "Tuna",  Price = 5, Description = "item2" ,CategoryId=2},
-             new Product { Id = 3, Name = "steak",  Price = 30, Description = "item3",CategoryId =3 }
+             new Product { Id = 1, Name = "Tomato", Price = 2, Description = "item1", CategoryId=1 ,Image=""},
+             new Product { Id = 2, Name = "Tuna",  Price = 5, Description = "item2" ,CategoryId=2, Image = "" },
+             new Product { Id = 3, Name = "steak",  Price = 30, Description = "item3",CategoryId =3 , Image = "" }
 
          );
 
