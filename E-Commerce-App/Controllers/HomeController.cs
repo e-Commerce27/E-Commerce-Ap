@@ -47,7 +47,7 @@ namespace E_Commerce_App.Controllers
 
         }
 
-        [Authorize(Roles = "Administrator")]
+        [Authorize]
         public IActionResult Iam()
         {
             // app.get('/home/iam', (req,res) => {});

@@ -1,4 +1,6 @@
-﻿using E_Commerce_App.Data;
+﻿using Azure.Storage.Blobs.Models;
+using Azure.Storage.Blobs;
+using E_Commerce_App.Data;
 using E_Commerce_App.Models.Interface;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,11 +9,13 @@ namespace E_Commerce_App.Models.Service
     public class ProductService : IProduct
     {
         private readonly ECommerceContext _context;
-        public ProductService(ECommerceContext context)
+        private readonly IConfiguration _configuration;
+        public ProductService(ECommerceContext context,IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
-        public async Task<Product> CreateProduct(Product product)
+        public async Task<Product> CreateProduct(Product product,string imgUrl)
         {
             Product newProduct = new Product()
             {
@@ -20,6 +24,7 @@ namespace E_Commerce_App.Models.Service
                 ExpiryDate = DateTime.Now,
                 Price = product.Price,
                 CategoryId = product.CategoryId,
+                Image = imgUrl
             };
             _context.Entry(newProduct).State = EntityState.Added;
            
@@ -47,7 +52,7 @@ namespace E_Commerce_App.Models.Service
             return await _context.Prodects.Where(x=>x.Id == id).FirstOrDefaultAsync(); 
         }
 
-        public async Task<Product> UpdateProduct(int productId, Product product)
+        public async Task<Product> UpdateProduct(int productId, Product product,string imgUrl)
         {
             var pro = await _context.Prodects.FindAsync(productId);
             if (pro != null)
@@ -58,6 +63,7 @@ namespace E_Commerce_App.Models.Service
                 pro.Description = product.Description;
                 pro.Price = product.Price;
                 pro.CategoryId = product.CategoryId;
+                pro.Image = imgUrl;
                 _context.Entry(pro).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
             }
@@ -75,6 +81,33 @@ namespace E_Commerce_App.Models.Service
             return null;
         }
 
-       
+
+        public async Task<string> Upload(IFormFile file)
+        {
+            BlobContainerClient blob = new BlobContainerClient(_configuration.GetConnectionString("AzureStorage"), "images");
+            await blob.CreateIfNotExistsAsync();
+            // Check if the file exists
+            if (file !=null)
+            {
+                BlobClient blobClient = blob.GetBlobClient(file.FileName);
+                using var fileStream = file.OpenReadStream();
+                BlobUploadOptions blobUploadOptions = new BlobUploadOptions()
+                {
+                    HttpHeaders = new BlobHttpHeaders { ContentType = file.ContentType }
+                };
+                if (!blobClient.Exists())
+                {
+                    await blobClient.UploadAsync(fileStream, blobUploadOptions);
+                }
+                return blobClient.Uri.ToString();
+            }
+            else
+            {
+                return null;
+            }
+        }
+
     }
+
+
 }

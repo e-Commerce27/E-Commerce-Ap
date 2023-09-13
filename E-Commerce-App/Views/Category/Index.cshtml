@@ -16,7 +16,9 @@
 <body>
     <div class="container mt-5">
         <h1>Category List</h1>
+        <a asp-controller="Category" asp-action="Add" class="btn btn-primary">Add</a> 
         <div class="row">
+
             @foreach (var item in Model)
             {
                 <div class="col-md-4 mb-3">
@@ -26,6 +28,8 @@
                             <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
                             <p class="card-text"><strong>Type:</strong> @Html.DisplayFor(modelItem => item.Type)</p>
                             <p class="card-text"><strong>Amount:</strong> @Html.DisplayFor(modelItem => item.Amount)</p>
+                            <a asp-controller="Category" asp-action="Edit" asp-route-IdCategory="@item.Id" class="btn btn-primary">Edit</a>
+                            <a asp-controller="Category" asp-action="Delete" asp-route-IdCategory="@item.Id" class="btn btn-primary">Delete</a>
                             <a asp-controller="ViewModels" asp-action="Index" asp-route-id="@item.Id" class="btn btn-primary">View Products</a>
                         </div>
                     </div>
@@ -33,7 +37,7 @@
             }
         </div>
     </div>
-
+    
     <!-- Scripts and footer here -->
 </body>
 </html>
