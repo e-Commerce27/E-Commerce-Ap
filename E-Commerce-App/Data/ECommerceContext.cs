@@ -35,7 +35,7 @@ namespace E_Commerce_App.Data
             modelBuilder.Entity<Category>().HasData(
 
              new Category { Id = 1, Name = "Fruits and vegetables",Img= "https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg", Type = "category1" },
-             new Category { Id = 2, Name = "Canned Food",Img= "https://c0.wallpaperflare.com/preview/412/24/903/canning-cans-finished-products-eat.jpg", Type = "category2" },
+             new Category { Id = 2, Name = "Detergents section", Img= "https://w7.pngwing.com/pngs/163/54/png-transparent-ariel-laundry-detergent-persil-ariel-laundry-detergent-with-downy-cleaning-stain-detergent-thumbnail.png", Type = "category2" },
              new Category { Id = 3, Name = "Fresh Meat and Fresh Chicken ",Img= "https://c4.wallpaperflare.com/wallpaper/304/644/960/chicken-dishes-table-plate-fruit-vegetables-wallpaper-preview.jpg", Type = "category3" }
 
          );

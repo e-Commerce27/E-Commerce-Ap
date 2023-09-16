@@ -2,42 +2,66 @@
 
 @{
     ViewBag.Title = "Index";
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Category List</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <!-- Add any additional stylesheets here -->
-</head>
-<body>
-    <div class="container mt-5">
-        <h1>Category List</h1>
-        <a asp-controller="Category" asp-action="Add" class="btn btn-primary">Add</a> 
-        <div class="row">
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
 
-            @foreach (var item in Model)
+  
+
+}
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <h1 class="display-3 mb-3 animated slideInDown">Categories</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="text-body" href="/">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-body" href="#">Pages</a></li>
+                <li class="breadcrumb-item text-dark active" aria-current="page">Category</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid bg-light bg-icon my-5 py-6">
+<div class="container">
+    <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <h1 class="display-5 mb-3">Categories List</h1>
+
+    </div>
+
+    <div>
+
+            <a asp-controller="Category" asp-action="Add" class="btn btn-primary border-2 py-2 px-4 rounded-pill" style="margin-bottom:8px">Add New Category</a>
+        </div>
+
+
+    <div class="row g-4">
+            @foreach(var item in Model)
             {
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src=@Html.DisplayFor(modelItem => item.Img) alt="Category Image" class="card-img-top" />
-                        <div class="card-body">
-                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                            <p class="card-text"><strong>Type:</strong> @Html.DisplayFor(modelItem => item.Type)</p>
-                            <p class="card-text"><strong>Amount:</strong> @Html.DisplayFor(modelItem => item.Amount)</p>
-                            <a asp-controller="Category" asp-action="Edit" asp-route-IdCategory="@item.Id" class="btn btn-primary">Edit</a>
-                            <a asp-controller="Category" asp-action="Delete" asp-route-IdCategory="@item.Id" class="btn btn-primary">Delete</a>
-                            <a asp-controller="ViewModels" asp-action="Index" asp-route-id="@item.Id" class="btn btn-primary">View Products</a>
-                        </div>
-                    </div>
-                </div>
+                
+            <div class="col-lg-4 col-md-6 wow fadeInUp">
+            <div class="bg-white text-center h-100 p-4 p-xl-5">
+                <img class="img-fluid mb-4" src="@item.Img">
+                <h4 class="mb-3">@item.Name</h4>
+
+                <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" asp-controller="ViewModels" asp-action="Index" asp-route-id=@item.Id>View Products</a>
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            
+                        
+                        <a asp-controller="Category" asp-action="Edit" asp-route-IdCategory="@item.Id" class="btn btn-outline-secondary">Edit</a>
+                      
+
+                        <a asp-controller="Category" asp-action="Delete" asp-route-IdCategory="@item.Id" class="btn btn-secondary">Delete</a>
+                        }
+                      
+            </div>
+        </div>
+       
+        
+      
             }
         </div>
     </div>
-    
-    <!-- Scripts and footer here -->
-</body>
-</html>
+   
+
+</div>
+</div>

@@ -2,8 +2,10 @@
 
 @{
     ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
-
+<div style="margin-top:150px;margin-bottom:35px">
+    <div class="container">
 <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
@@ -43,4 +45,6 @@
         <input asp-controller="Category"  type="submit" value="Delete" class="btn btn-danger" /> |
         <a   asp-action="Index">Back to List</a>
     </form>
+</div>
+    </div>
 </div>

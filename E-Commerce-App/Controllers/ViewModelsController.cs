@@ -10,21 +10,28 @@ namespace E_Commerce_App.Controllers
     {
         private readonly ICategory _category;
         private readonly IProduct _product;
+
         public ViewModelsController(ICategory category)
         {
             _category = category;
-                    
         }
+
+        /// <summary>
+        /// Displays the index view for the specified category ID.
+        /// </summary>
+        /// <param name="id">The ID of the category.</param>
+        /// <returns>The view with a list of products within the specified category.</returns>
         public async Task<IActionResult> Index(int id)
         {
             var allCategories = await _category.GetCategoryId(id);
-            ProductAndCategoryVM prodectAndCategory = new ProductAndCategoryVM()
+
+            ProductAndCategoryVM productAndCategory = new ProductAndCategoryVM()
             {
-               Category =allCategories,
-               Product = allCategories.products.ToList()
+                Category = allCategories,
+                Product = allCategories.products.ToList()
             };
-            return View(prodectAndCategory);
+
+            return View(productAndCategory);
         }
-      
     }
 }

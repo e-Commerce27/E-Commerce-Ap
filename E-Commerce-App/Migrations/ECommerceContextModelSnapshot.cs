@@ -102,9 +102,11 @@ namespace E_Commerce_App.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Type")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -122,8 +124,8 @@ namespace E_Commerce_App.Migrations
                         new
                         {
                             Id = 2,
-                            Img = "https://c0.wallpaperflare.com/preview/412/24/903/canning-cans-finished-products-eat.jpg",
-                            Name = "Canned Food",
+                            Img = "https://w7.pngwing.com/pngs/163/54/png-transparent-ariel-laundry-detergent-persil-ariel-laundry-detergent-with-downy-cleaning-stain-detergent-thumbnail.png",
+                            Name = "Detergents section",
                             Type = "category2"
                         },
                         new

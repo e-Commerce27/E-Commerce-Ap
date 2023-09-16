@@ -1,20 +1,15 @@
-﻿
-using E_Commerce_App.Models;
+﻿using E_Commerce_App.Models;
 using E_Commerce_App.Models.DTO;
 using E_Commerce_App.Models.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace E_Commerce_App.Controllers
 {
     public class AuthController : Controller
     {
-
-        // Use DI to bring in the user service
         private IUserService userService;
         private SignInManager<AuthUser> _signInManager;
 
@@ -24,37 +19,50 @@ namespace E_Commerce_App.Controllers
             _signInManager = sim;
         }
 
+        /// <summary>
+        /// Displays the index page.
+        /// </summary>
+        /// <returns>The index view.</returns>
         public IActionResult Index()
         {
             return View();
         }
 
+        /// <summary>
+        /// Displays the signup page (GET).
+        /// </summary>
+        /// <returns>The signup view.</returns>
         [HttpGet]
         public IActionResult Signup()
         {
             return View();
         }
 
+        /// <summary>
+        /// Handles user registration (POST).
+        /// </summary>
+        /// <param name="data">The registration data.</param>
+        /// <returns>Redirects to the home page on successful registration, or re-displays the signup page with errors.</returns>
         [HttpPost]
         public async Task<ActionResult<UserDTO>> Signup(RegisterDTO data)
         {
-            
-           // data.Roles = new List<string>() { "Administrator" };
+           var res = await userService.Register(data, this.ModelState);
 
-            // Create a user with the user service
-             await userService.Register(data, this.ModelState);
-
-            if (ModelState.IsValid)
+            if (res != null)
             {
                 return Redirect("/");
             }
-            return View();
+            return null;
         }
 
+        /// <summary>
+        /// Handles user authentication (POST).
+        /// </summary>
+        /// <param name="data">The login credentials.</param>
+        /// <returns>Redirects to the home page on successful authentication, or back to the index page with an error message.</returns>
         [HttpPost]
         public async Task<ActionResult<UserDTO>> Authenticate(Login data)
         {
-            // Check with the user service to ... see if we're in the system
             var user = await userService.Authenticate(data.Username, data.Password);
             if (user == null)
             {
@@ -63,8 +71,12 @@ namespace E_Commerce_App.Controllers
             }
 
             return Redirect("/");
-            }
-        
+        }
+
+        /// <summary>
+        /// Handles user logout.
+        /// </summary>
+        /// <returns>Redirects to the home page after logging the user out.</returns>
         public async Task<ActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
