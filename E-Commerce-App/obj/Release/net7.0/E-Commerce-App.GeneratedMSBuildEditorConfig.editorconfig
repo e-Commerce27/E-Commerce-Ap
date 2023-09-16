@@ -9,45 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_Commerce_App
 build_property.RootNamespace = E_Commerce_App
-build_property.ProjectDir = C:\Users\tsnee\source\repos\E-Commerce-App\E-Commerce-Ap\E-Commerce-App\
+build_property.ProjectDir = C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\tsnee\source\repos\E-Commerce-App\E-Commerce-Ap\E-Commerce-App
+build_property.MSBuildProjectDirectory = C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Category/Index.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Auth/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Home/Category.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeS5jc2h0bWw=
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Category/_categoryForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX2NhdGVnb3J5Rm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Home/Index.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Home/Privacy.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Shared/Error.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Product/_productForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfcHJvZHVjdEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/_ViewImports.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/ViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld01vZGVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/_ViewStart.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tsnee/source/repos/E-Commerce-App/E-Commerce-Ap/E-Commerce-App/Views/Shared/_Layout.cshtml]
+[C:/Users/Tasneem/OneDrive - LTUC/Desktop/DotNet/Labs/E-Commerce-App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fof9rf0gub

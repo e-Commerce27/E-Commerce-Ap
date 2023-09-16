@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Create Account</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Create Account</h2>
+                        <form id="signupForm" method="post" action="/Auth/signup">
+                            <div class="form-group">
+                                <input class="form-control" name="username" placeholder="Username" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" name="password" placeholder="Password" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" name="email" placeholder="Email" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" name="phonenumber" placeholder="555-1212" />
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" name="roles">
+                                    <option value="" disabled selected>Select a role</option>
+                                    <option value="Administrator">Admin</option>
+                                    <option value="Editor">Editor</option>
+                                </select>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" class="btn btn-primary" value="Sign Up" />
+                            </div>
+                        </form>
+                        <div id="signupSuccessMessage" class="alert alert-success" style="display:none;">
+                            Sign up has been successful!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const signupForm = document.getElementById('signupForm');
+            const successMessage = document.getElementById('signupSuccessMessage');
+
+            signupForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+                // Assuming a successful signup, show the success message
+                successMessage.style.display = 'block';
+                // Redirect to login page after a short delay (2 seconds)
+                setTimeout(function () {
+                    window.location.href = https://localhost:44369/Auth/; // Replace with your login page URL
+                }, 2000); // 2000 milliseconds = 2 seconds
+            });
+        });
+    </script>
+</body>
+</html>

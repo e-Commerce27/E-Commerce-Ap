@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<E_Commerce_App.Models.Category>
+
 @{
     ViewBag.Title = "Index";
 }
@@ -13,23 +14,30 @@
     <!-- Add any additional stylesheets here -->
 </head>
 <body>
-    <table class="table">
-        <tr>
-            <th style="color: brown;">Name</th>
-            <th style="color: brown;">Type</th>
-            <th style="color: brown;">Amount</th>
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.DisplayFor(modelItem => item.Type)</td>
-                <td>@Html.DisplayFor(modelItem => item.Amount)</td>
-                <td> <a asp-controller="ViewModels" asp-action="Index" asp-route-id="@item.Id">Products</a></td>
-            </tr>
-        }
-    </table>
+    <div class="container mt-5">
+        <h1>Category List</h1>
+        <a asp-controller="Category" asp-action="Add" class="btn btn-primary">Add</a> 
+        <div class="row">
 
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src=@Html.DisplayFor(modelItem => item.Img) alt="Category Image" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                            <p class="card-text"><strong>Type:</strong> @Html.DisplayFor(modelItem => item.Type)</p>
+                            <p class="card-text"><strong>Amount:</strong> @Html.DisplayFor(modelItem => item.Amount)</p>
+                            <a asp-controller="Category" asp-action="Edit" asp-route-IdCategory="@item.Id" class="btn btn-primary">Edit</a>
+                            <a asp-controller="Category" asp-action="Delete" asp-route-IdCategory="@item.Id" class="btn btn-primary">Delete</a>
+                            <a asp-controller="ViewModels" asp-action="Index" asp-route-id="@item.Id" class="btn btn-primary">View Products</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    
     <!-- Scripts and footer here -->
 </body>
 </html>

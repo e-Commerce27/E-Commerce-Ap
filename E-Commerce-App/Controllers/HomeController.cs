@@ -1,6 +1,5 @@
-﻿using E_Commerce_App.Data;
-using E_Commerce_App.Models;
-using E_Commerce_App.Models.Services;
+﻿using E_Commerce_App.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,26 +14,10 @@ namespace E_Commerce_App.Controllers
             _logger = logger;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             return View();
-        }
-
-        public IActionResult Category()
-        {
-            List<Category> category = new List<Category>()
-            {
-            new Category(){Name="shirt" , Type = "Clothes" , Amount="900pc" , products={ } },
-            new Category(){Name="BMW" , Type = "Car" , Amount="50pc" , products={ } },
-            new Category(){Name="Chocolate" , Type = "Food" , Amount="1000pc" , products={ } },
-            new Category(){Name="Samsung" , Type = "Phone" , Amount="590pc" , products={ } },
-            new Category(){Name="Light" , Type = "Tool" , Amount="2090pc" , products={ } }
-            }
-            ;
-
-
-            return View(category);
-
         }
 
         public IActionResult Privacy()
@@ -46,6 +29,31 @@ namespace E_Commerce_App.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult Remember(string name)
+        {
+            if (name != null)
+            {
+                // Set a cookie with the name in it...
+                CookieOptions cookieOptions = new CookieOptions();
+                
+                cookieOptions.Expires = new DateTimeOffset(DateTime.Now.AddDays(7));
+                HttpContext.Response.Cookies.Append("name", name, cookieOptions);
+                return Content("Ok, Saved It");
+            }
+
+            return Content("Please provide a name");
+
+        }
+
+        [Authorize]
+        public IActionResult Iam()
+        {
+            // app.get('/home/iam', (req,res) => {});
+            string name = HttpContext.Request.Cookies["name"];
+            ViewData["name"] = name;
+            return View();
         }
     }
 }

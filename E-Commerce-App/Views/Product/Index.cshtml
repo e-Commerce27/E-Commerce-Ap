@@ -1,0 +1,27 @@
+﻿@model List<E_Commerce_App.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@product.Image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Price: @product.Price.ToString("C")</li>
+                    <li class="list-group-item">Expiry Date: @product.ExpiryDate.ToShortDateString()</li>
+                    <li class="list-group-item">Category Name: @product.CategoryId</li>
+                </ul>
+            </div>
+        </div>
+    }
+</div>
