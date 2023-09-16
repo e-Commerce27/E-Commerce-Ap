@@ -102,9 +102,11 @@ namespace E_Commerce_App.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Type")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -122,14 +124,14 @@ namespace E_Commerce_App.Migrations
                         new
                         {
                             Id = 2,
-                            Img = "https://c0.wallpaperflare.com/preview/412/24/903/canning-cans-finished-products-eat.jpg",
-                            Name = "Canned Food",
+                            Img = "https://w7.pngwing.com/pngs/163/54/png-transparent-ariel-laundry-detergent-persil-ariel-laundry-detergent-with-downy-cleaning-stain-detergent-thumbnail.png",
+                            Name = "Detergents section",
                             Type = "category2"
                         },
                         new
                         {
                             Id = 3,
-                            Img = "https://c4.wallpaperflare.com/wallpaper/304/644/960/chicken-dishes-table-plate-fruit-vegetables-wallpaper-preview.jpg",
+                            Img = "https://storagedataltuc.blob.core.windows.net/images/pngwing.com (1).png",
                             Name = "Fresh Meat and Fresh Chicken ",
                             Type = "category3"
                         });
@@ -176,8 +178,8 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 1,
                             Description = "item1",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Image = "",
-                            Name = "Tomato",
+                            Image = "https://storagedataltuc.blob.core.windows.net/images/product-2.jpg",
+                            Name = "pineapple",
                             Price = 2m
                         },
                         new
@@ -186,8 +188,8 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 2,
                             Description = "item2",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Image = "",
-                            Name = "Tuna",
+                            Image = "https://w7.pngwing.com/pngs/406/268/png-transparent-ariel-laundry-detergent-stain-removal-nazril-irham-kitchen-stain-detergent-thumbnail.png",
+                            Name = "Arial",
                             Price = 5m
                         },
                         new
@@ -196,7 +198,7 @@ namespace E_Commerce_App.Migrations
                             CategoryId = 3,
                             Description = "item3",
                             ExpiryDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Image = "",
+                            Image = "https://storagedataltuc.blob.core.windows.net/images/pngwing.com.png",
                             Name = "steak",
                             Price = 30m
                         });

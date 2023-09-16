@@ -1,247 +1,1031 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-Commerce-App.bundle.scp.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-Commerce-App.bundle.scp.css",
       "PackagePath": "staticwebassets\\E-Commerce-App.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\MainDes\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\css\\style.css",
+      "PackagePath": "staticwebassets\\MainDes\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\bg-icon.png",
+      "PackagePath": "staticwebassets\\MainDes\\img\\bg-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\icon-1.png",
+      "PackagePath": "staticwebassets\\MainDes\\img\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\icon-2.png",
+      "PackagePath": "staticwebassets\\MainDes\\img\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\icon-3.png",
+      "PackagePath": "staticwebassets\\MainDes\\img\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\MainDes\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\js\\main.js",
+      "PackagePath": "staticwebassets\\MainDes\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\MainDes\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\MainDes\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\MainDes\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\404.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\404.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\about.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\blog.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\cart.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\contact.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\home.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\main2.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\main2.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\product-details.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\product-details.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\shop.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\css\\whishlist.css",
+      "PackagePath": "staticwebassets\\SecondDes\\css\\whishlist.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\breadcumb-bg.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\breadcumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\cta-bg.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\cta-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-1-active.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-1-active.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-2-active.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-2-active.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-3-active.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-3-active.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\filter-3.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\filter-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\hero-banner.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\hero-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\hero-left-bg.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\hero-left-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\hero-right-bg.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\hero-right-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\offer-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\offer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\offer-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\offer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-3.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-4.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-5.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-6.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-left-bg.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-left-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\partner-right-bg.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\partner-right-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\pngwing.com.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\pngwing.com.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-3.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-4.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-5.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-6.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-7.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-8.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-small-1.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-small-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-small-2.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-small-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\product-small-3.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\product-small-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\quote-left.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\quote-left.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\quote-right.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\quote-right.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\service-icon-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\service-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\service-icon-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\service-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\service-icon-3.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\service-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-1.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-2.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-3.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-4.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-5.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-6.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-7.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-8.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\images\\top-product-9.png",
+      "PackagePath": "staticwebassets\\SecondDes\\images\\top-product-9.png"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\SecondDes\\js\\script.js",
+      "PackagePath": "staticwebassets\\SecondDes\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Tasneem\\OneDrive - LTUC\\Desktop\\DotNet\\Labs\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Bashar\\source\\repos\\E-Commerce-App\\E-Commerce-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

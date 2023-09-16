@@ -1,17 +1,122 @@
-﻿@{
+﻿@model IEnumerable<E_Commerce_App.Models.Product>
+@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+  
+
 }
-
-<!-- Add dark theme class to the body -->
-<body class="bg-dark text-light">
-
-    <div class="text-center">
-        <h1 class="display-4">Welcome In E-Commerce App</h1>
-
-        
-      <button> <a asp-controller="Category" asp-action="Index" >Category</a></button>
     
 
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="~/MainDes/img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown">Fresh Food Is Good For Health</h1>
+                                <a class="btn btn-primary rounded-pill py-sm-3 px-sm-5" asp-controller="Product" asp-action="Index">Products</a>
+                                <a  class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3" asp-controller="Category" asp-action="Index">Categories</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                <img class="w-100" src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" height="1000" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                            <div class="col-lg-7" >
+                                <h1 class="display-2 mb-5" style="margin-left:120px">Everything You Need In One Place</h1>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a>
+                                    <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3" >Categories</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
+    <!-- Carousel End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100" src=https://images.unsplash.com/photo-1601057366047-ec734881239b?ixlib =rb-4.0.3&ixid =M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto =format&fit =crop&w =2070&q =80 =rb-4.0.3&ixid =M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto =format&fit =crop&w =1964&q =80>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4">Best Organic Fruits And Vegetables</h1>
+                <p class="mb-4">"Welcome to TMart, your trusted e-commerce destination. Founded in 2023, we're committed to revolutionizing your online shopping experience.
+                    Our curated selection, customer-centric approach, and dedication to sustainability set us apart. We're here to provide you with quality products, exceptional service, and a seamless shopping journey.
+                    Join our community and discover the TMart difference."</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Best Price</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Best Products</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Best Place</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- category Start -->
+    <div class="container-fluid bg-light bg-icon my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Our Categories</h1>
+              
+            </div>
+     
 
-</body>
+            <div class="row g-6">
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img class="img-fluid mb-4" src="~/SecondDes/images/offer-1.png">
+                    <h4 class="mb-3">Fruit And Vegetables</h4>
+
+                    <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" asp-controller="ViewModels" asp-action="Index" asp-route-id=1>View Products</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img class="img-fluid mb-4" src="~/SecondDes/images/offer-2.png">
+                    
+                    <h4 class="mb-3">Meat</h4>
+
+                    <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" asp-controller="ViewModels" asp-action="Index" asp-route-id=3>View Products</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                    <img src="~/SecondDes/images/pngwing.com.png" height="250">
+
+                    <h4 class="mb-3">Detergents</h4>
+
+                    <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" asp-controller="ViewModels" asp-action="Index" asp-route-id=2>View Products</a>
+                    </div>
+                </div>
+            </div>
+        <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" asp-controller="Category" asp-action="Index">All Categories</a>
+
+       
+        </div>
+
+    </div>
+    <!-- Feature End -->

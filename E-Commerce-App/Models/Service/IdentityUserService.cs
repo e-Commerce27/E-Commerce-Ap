@@ -1,4 +1,6 @@
-﻿using E_Commerce_App.Models.DTO;
+﻿//----------------------------------------------------------------------------------------------------------------------------------------
+
+using E_Commerce_App.Models.DTO;
 using E_Commerce_App.Models.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -11,14 +13,26 @@ namespace E_Commerce_App.Models.Service
         private UserManager<AuthUser> userManager;
         private SignInManager<AuthUser> signInManager;
 
+        // Constructor to initialize UserManager and SignInManager
         public IdentityUserService(UserManager<AuthUser> manager, SignInManager<AuthUser> sim)
         {
             userManager = manager;
             signInManager = sim;
         }
 
+        /// <summary>
+        /// Registers a new user based on provided registration data.
+        /// </summary>
+        /// <param name="data">Registration data including username, email, password, and roles.</param>
+        /// <param name="modelState">ModelState for validation errors.</param>
+        /// <returns>A UserDTO if registration is successful, otherwise null.</returns>
         public async Task<UserDTO> Register(RegisterDTO data, ModelStateDictionary modelState)
         {
+            if (!modelState.IsValid)
+            {
+                return null; 
+            }
+
             var user = new AuthUser
             {
                 UserName = data.Username,
@@ -39,8 +53,6 @@ namespace E_Commerce_App.Models.Service
                 };
             }
 
-           
-
             foreach (var error in result.Errors)
             {
                 var errorKey =
@@ -50,18 +62,20 @@ namespace E_Commerce_App.Models.Service
                     "";
                 modelState.AddModelError(errorKey, error.Description);
             }
+
             return null;
         }
 
-        private TimeSpan TimeSpan(object p)
-        {
-            throw new NotImplementedException();
-        }
 
 
+        /// <summary>
+        /// Authenticates a user with the provided username and password.
+        /// </summary>
+        /// <param name="username">The username of the user.</param>
+        /// <param name="password">The user's password.</param>
+        /// <returns>A UserDTO if authentication is successful, otherwise null.</returns>
         public async Task<UserDTO> Authenticate(string username, string password)
         {
-
             var result = await signInManager.PasswordSignInAsync(username, password, true, false);
 
             if (result.Succeeded)
@@ -78,7 +92,11 @@ namespace E_Commerce_App.Models.Service
             return null;
         }
 
-        // Use a "claim" to get a user
+        /// <summary>
+        /// Retrieves user information based on claims in the provided ClaimsPrincipal.
+        /// </summary>
+        /// <param name="principal">The ClaimsPrincipal associated with the authenticated user.</param>
+        /// <returns>A UserDTO representing the authenticated user.</returns>
         public async Task<UserDTO> GetUser(ClaimsPrincipal principal)
         {
             var user = await userManager.GetUserAsync(principal);
@@ -89,6 +107,5 @@ namespace E_Commerce_App.Models.Service
                 Roles = await userManager.GetRolesAsync(user)
             };
         }
-      
     }
 }

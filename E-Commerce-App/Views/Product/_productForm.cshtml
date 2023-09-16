@@ -1,9 +1,10 @@
 ﻿@model E_Commerce_App.Models.Product
 
 
-@*{
-    var cat = ViewBag.Categories;
-}*@
+@{
+    //var cat = ViewBag.Categories;
+   // Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
 <form method="post" asp-controller="Product" asp-action="@(Model.Id > 0 ? "Edit" : "Add")" asp-route-productId="@Model.Id" enctype="multipart/form-data">
     @if (Model.Id > 0)
     {
