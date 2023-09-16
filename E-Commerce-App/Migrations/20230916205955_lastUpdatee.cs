@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace E_Commerce_App.Migrations
 {
     /// <inheritdoc />
-    public partial class lastUpdate : Migration
+    public partial class lastUpdatee : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -214,7 +214,7 @@ namespace E_Commerce_App.Migrations
                 {
                     { 1, null, "https://c4.wallpaperflare.com/wallpaper/311/699/596/fruit-allsorts-pineapple-melon-wallpaper-preview.jpg", "Fruits and vegetables", "category1" },
                     { 2, null, "https://w7.pngwing.com/pngs/163/54/png-transparent-ariel-laundry-detergent-persil-ariel-laundry-detergent-with-downy-cleaning-stain-detergent-thumbnail.png", "Detergents section", "category2" },
-                    { 3, null, "https://c4.wallpaperflare.com/wallpaper/304/644/960/chicken-dishes-table-plate-fruit-vegetables-wallpaper-preview.jpg", "Fresh Meat and Fresh Chicken ", "category3" }
+                    { 3, null, "https://storagedataltuc.blob.core.windows.net/images/pngwing.com (1).png", "Fresh Meat and Fresh Chicken ", "category3" }
                 });
 
             migrationBuilder.InsertData(
@@ -222,9 +222,9 @@ namespace E_Commerce_App.Migrations
                 columns: new[] { "Id", "CategoryId", "Description", "ExpiryDate", "Image", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, 1, "item1", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "", "Tomato", 2m },
-                    { 2, 2, "item2", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "", "Tuna", 5m },
-                    { 3, 3, "item3", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "", "steak", 30m }
+                    { 1, 1, "item1", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://storagedataltuc.blob.core.windows.net/images/product-2.jpg", "pineapple", 2m },
+                    { 2, 2, "item2", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://w7.pngwing.com/pngs/406/268/png-transparent-ariel-laundry-detergent-stain-removal-nazril-irham-kitchen-stain-detergent-thumbnail.png", "Arial", 5m },
+                    { 3, 3, "item3", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "https://storagedataltuc.blob.core.windows.net/images/pngwing.com.png", "steak", 30m }
                 });
 
             migrationBuilder.CreateIndex(

@@ -91,7 +91,11 @@ namespace E_Commerce_App.Models.Service
                 pro.Description = product.Description;
                 pro.Price = product.Price;
                 pro.CategoryId = product.CategoryId;
+                if(imgUrl != null)
+                {
+
                 pro.Image = imgUrl;
+                }
                 _context.Entry(pro).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
             }

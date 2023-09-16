@@ -25,6 +25,7 @@ namespace E_Commerce_App.Models.Services
         /// <returns>The created category object.</returns>
         public async Task<Category> CreateCategory(Category category, String img)
         {
+            category.Img = img;
             _context.Categories.Add(category);
             await _context.SaveChangesAsync();
             return category;
@@ -88,7 +89,10 @@ namespace E_Commerce_App.Models.Services
                 categories.Name = category.Name;
                 categories.Type = category.Type;
                 categories.Amount = category.Amount;
-                categories.Img = category.Img;
+                if(url!= null)
+                {
+                 categories.Img = url;
+                }
 
                 _context.Entry(categories).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
@@ -104,27 +108,21 @@ namespace E_Commerce_App.Models.Services
         /// <returns>The URL of the uploaded image.</returns>
         public async Task<string> Upload(IFormFile file)
         {
-            BlobContainerClient blob = new BlobContainerClient(
-                _configuration.GetConnectionString("AzureStorage"), "images");
-
+            BlobContainerClient blob = new BlobContainerClient(_configuration.GetConnectionString("AzureStorage"), "images");
             await blob.CreateIfNotExistsAsync();
-
+            // Check if the file exists
             if (file != null)
             {
                 BlobClient blobClient = blob.GetBlobClient(file.FileName);
-
                 using var fileStream = file.OpenReadStream();
-
                 BlobUploadOptions blobUploadOptions = new BlobUploadOptions()
                 {
                     HttpHeaders = new BlobHttpHeaders { ContentType = file.ContentType }
                 };
-
                 if (!blobClient.Exists())
                 {
                     await blobClient.UploadAsync(fileStream, blobUploadOptions);
                 }
-
                 return blobClient.Uri.ToString();
             }
             else
