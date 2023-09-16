@@ -1,0 +1,23 @@
+﻿@model E_Commerce_App.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<div class="container mt-5">
+    <h2>@Model.Name</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Product Information</h5>
+                    <p class="card-text"><strong>ID:</strong> @Model.Id</p>
+                    <p class="card-text"><strong>Description:</strong> @Model.Description</p>
+                    <p class="card-text"><strong>Price:</strong> @Model.Price.ToString("C")</p>
+                    <p class="card-text"><strong>Expiry Date:</strong> @Model.ExpiryDate.ToShortDateString()</p>
+                    <p class="card-text"><strong>Category Name:</strong> @Model.CategoryId</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
