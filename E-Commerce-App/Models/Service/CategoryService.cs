@@ -19,12 +19,26 @@ namespace E_Commerce_App.Models.Services
         }
         public async Task<Category> CreateCategory(Category category , String img)
         {
-            _context.Categories.Add(category);
+            Category category1 = new Category()
+            {
+                Name= category.Name,
+                Type= category.Type,
+                Amount= category.Amount,
+                Img= img
+            };
+            _context.Entry(category1).State = EntityState.Added;
+            
 
             await _context.SaveChangesAsync();
+            if (category1.Id > 0)
+            {
+                return category1;
+            }
+            else
+            {
 
-
-            return category;
+                return null;
+            }
         }
 
         public async Task<Category> DeleteCategory(int Id)

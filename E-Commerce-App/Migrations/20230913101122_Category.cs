@@ -7,6 +7,10 @@ namespace E_Commerce_App.Migrations
     /// <inheritdoc />
     public partial class Category : Migration
     {
+        public string Name;
+        public string Type;
+        public string Tl;
+
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
