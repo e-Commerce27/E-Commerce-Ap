@@ -35,7 +35,7 @@ namespace E_Commerce_App
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddRazorPages();
             builder.Services.AddTransient<IProduct, ProductService>();
             builder.Services.AddTransient<ICategory, CategoryService>();
             builder.Services.AddTransient<IUserService, IdentityUserService>();

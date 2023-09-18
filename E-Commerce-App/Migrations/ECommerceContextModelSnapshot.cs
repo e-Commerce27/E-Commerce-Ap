@@ -244,6 +244,13 @@ namespace E_Commerce_App.Migrations
                             ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
+                        },
+                        new
+                        {
+                            Id = "user",
+                            ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
+                            Name = "User",
+                            NormalizedName = "USER"
                         });
                 });
 

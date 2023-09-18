@@ -30,7 +30,7 @@ namespace E_Commerce_App.Models.Service
         {
             if (!modelState.IsValid)
             {
-                return null; 
+                return null;
             }
 
             var user = new AuthUser
@@ -52,15 +52,12 @@ namespace E_Commerce_App.Models.Service
                     Roles = await userManager.GetRolesAsync(user)
                 };
             }
-
-            foreach (var error in result.Errors)
+            else
             {
-                var errorKey =
-                    error.Code.Contains("Password") ? nameof(data.Password) :
-                    error.Code.Contains("Email") ? nameof(data.Email) :
-                    error.Code.Contains("UserName") ? nameof(data.Username) :
-                    "";
-                modelState.AddModelError(errorKey, error.Description);
+                foreach (var error in result.Errors)
+                {
+                    modelState.AddModelError("", error.Description);
+                }
             }
 
             return null;

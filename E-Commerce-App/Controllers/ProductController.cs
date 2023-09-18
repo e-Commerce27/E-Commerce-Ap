@@ -40,7 +40,7 @@ namespace E_Commerce_App.Controllers
             return View(allProducts);
         }
 
-        /// <summary>
+        /// <summary>   
         /// Displays the view for adding a new product.
         /// </summary>
         /// <returns>The view for adding a product.</returns>

@@ -23,7 +23,7 @@ namespace E_Commerce_App.Pages.Account
             var newUser = await _userService.Authenticate(login.Username, login.Password);
             if (newUser != null)
             {
-                return RedirectToAction("Index", "Category");
+                return RedirectToAction("Index","Product");
             }
             ModelState.AddModelError(nameof(login.Password), "Password or Username is not correct.");
             return Redirect("/");

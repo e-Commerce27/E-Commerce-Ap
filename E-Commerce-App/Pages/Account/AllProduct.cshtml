@@ -1,0 +1,30 @@
+﻿@page
+@model E_Commerce_App.Pages.Account.AllProductModel
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div style="margin:150px">
+<h2>All Products</h2>
+
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Description</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.products)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td><i>Here is a group of @item.Name Products</i></td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
