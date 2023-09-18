@@ -1,0 +1,33 @@
+﻿@page
+@model E_Commerce_App.Pages.Account.IndexModel
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<h2>Please login!</h2>
+<form method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <label asp-for="login.Username" class="control-label"></label>
+            <input asp-for="login.Username" class="form-control" />
+            <span asp-validation-for="login.Username" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <label asp-for="login.Password" class="control-label"></label>
+            <input asp-for="login.Password" class="form-control" />
+            <span asp-validation-for="login.Password" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">
+        <i class="bi bi-check"></i>
+        LogIn
+    </button>
+    <a class="btn btn-success mt-4" href="/Account/SignUp" role="button">
+        
+        <i class="bi bi-arrow-90deg-left"></i>
+        SignUp
+    </a>
+
+</form>

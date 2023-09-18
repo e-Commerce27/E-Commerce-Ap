@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Bashar/source/repos/E-Commerce-App/E-Commerce-App/Pages/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Bashar/source/repos/E-Commerce-App/E-Commerce-App/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

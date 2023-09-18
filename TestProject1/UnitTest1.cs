@@ -183,7 +183,7 @@ namespace TestProject1
             var createdProduct = await _context.Prodects.FirstOrDefaultAsync(p => p.Name == "Tomato");
 
             // Act
-            await productService.DeleteProduct(createdProduct.Id);
+            await productService.DeleteProduct(createdProduct.Id,product);
 
             // Assert
             var deletedProduct = await _context.Prodects.FirstOrDefaultAsync(p => p.Id == createdProduct.Id);

@@ -1130,3 +1130,12 @@ C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App\obj\Debug\ne
 C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App\bin\Debug\net7.0\Castle.Core.dll
 C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App\bin\Debug\net7.0\HttpContextMoq.dll
 C:\Users\Tasneem\OneDrive - LTUC\Desktop\DotNet\Labs\E-Commerce-App\bin\Debug\net7.0\Moq.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\MvcTestingAppManifest.json
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\HttpContextMoq.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Testing.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Microsoft.AspNetCore.TestHost.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\bin\Debug\net7.0\Moq.dll
+C:\Users\Bashar\source\repos\E-Commerce-App\E-Commerce-App\obj\Debug\net7.0\MvcTestingAppManifest.json
