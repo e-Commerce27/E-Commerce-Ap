@@ -1,0 +1,41 @@
+﻿@page
+@model E_Commerce_App.Pages.Account.IndexModel
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Login Account</h2>
+
+                    <form method="post" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label asp-for="login.Username" class="font-weight-bold">Name</label>
+                            <input asp-for="login.Username" class="form-control" required />
+                            <div class="invalid-feedback">
+                                Please provide a valid username.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="login.Password" class="font-weight-bold">Password</label>
+                            <input asp-for="login.Password" class="form-control" type="password" required />
+                            <div class="invalid-feedback">
+                                Please provide a valid password.
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary mt-4">LogIn</button>
+                            <a class="btn btn-success mt-4" href="/Account/SignUp" role="button">SignUp</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

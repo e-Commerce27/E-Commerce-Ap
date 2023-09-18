@@ -17,10 +17,9 @@ namespace E_Commerce_App.Data
 
             modelBuilder.Entity<IdentityRole>().HasData(
              new IdentityRole { Id = "administrator", Name = "Administrator", NormalizedName = "ADMINISTRATOR", ConcurrencyStamp = Guid.Empty.ToString()},
-             new IdentityRole { Id = "editor", Name = "Editor", NormalizedName = "EDITOR", ConcurrencyStamp = Guid.Empty.ToString()}
-
-
-
+             new IdentityRole { Id = "editor", Name = "Editor", NormalizedName = "EDITOR", ConcurrencyStamp = Guid.Empty.ToString()},
+             new IdentityRole { Id = "user", Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.Empty.ToString()}
+             
    );
 
             modelBuilder.Entity<Product>().HasData(

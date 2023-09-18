@@ -3,6 +3,7 @@ using E_Commerce_App.Data;
 using E_Commerce_App.Models;
 using E_Commerce_App.Models.Interface;
 using E_Commerce_App.Models.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis;
@@ -26,6 +27,8 @@ namespace E_Commerce_App.Controllers
         /// Displays a list of all categories.
         /// </summary>
         /// <returns>The view with a list of categories.</returns>
+        /// 
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var allCategory = await _category.GetAllCategory();

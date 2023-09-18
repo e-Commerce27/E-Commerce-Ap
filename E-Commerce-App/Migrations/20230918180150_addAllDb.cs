@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace E_Commerce_App.Migrations
 {
     /// <inheritdoc />
-    public partial class lastUpdatee : Migration
+    public partial class addAllDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -204,7 +204,8 @@ namespace E_Commerce_App.Migrations
                 values: new object[,]
                 {
                     { "administrator", "00000000-0000-0000-0000-000000000000", "Administrator", "ADMINISTRATOR" },
-                    { "editor", "00000000-0000-0000-0000-000000000000", "Editor", "EDITOR" }
+                    { "editor", "00000000-0000-0000-0000-000000000000", "Editor", "EDITOR" },
+                    { "user", "00000000-0000-0000-0000-000000000000", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
