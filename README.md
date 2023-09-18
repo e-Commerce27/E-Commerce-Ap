@@ -218,4 +218,7 @@ Azure Blob Storage is a cloud-based object storage solution provided by Microsof
    ![Img](./ERD.jpg)
 
    <br>
-
+   
+ # Lab 31:
+* Register New User
+* LogIn New User
